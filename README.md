@@ -91,7 +91,7 @@ Passwords in `sessions.json` are DPAPI blobs. Copying that file to another machi
 ## Command line
 
 ```bat
-SshTunnelManager.exe --host 113.161.69.80 --ssh-port 225 --user openclaw ^
+SshTunnelManager.exe --host <public ip address> --ssh-port 225 --user openclaw ^
   --password yourpassword --inside 127.0.0.1:18789 --outside 18789 --connect --remember
 ```
 
