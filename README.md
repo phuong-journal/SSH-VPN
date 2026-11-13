@@ -3,7 +3,7 @@
 A Windows desktop GUI for creating SSH tunnels — the same thing as running:
 
 ```bash
-ssh -p 225 -N -L 18789:127.0.0.1:18789 openclaw@113.161.69.80
+ssh -p 225 -N -L 18789:127.0.0.1:18789 openclaw@<public ip>
 ```
 
 Built because typing that command every time is annoying, and because plain `ssh.exe` cannot accept a password non-interactively on Windows.
