@@ -1,0 +1,17 @@
+# Build output
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# NuGet
+packages/
+*.nupkg
+
+# Publish output
+publish/
+
+# OS
+Thumbs.db
+.DS_Store
